@@ -12,11 +12,21 @@ public class Player : MonoBehaviour {
     }
 
     private void Update() {
-        var vertical = Input.GetAxis("Vertical");
-        var horizontal = Input.GetAxis("Horizontal");
-        
-        transform.position += new Vector3(horizontal * speed * Time.deltaTime, vertical * speed * Time.deltaTime);
+        float vertical = Input.GetAxis("Vertical");
+        float horizontal = Input.GetAxis("Horizontal");
 
+        Vector3 position = transform.position;
+        
+        position += new Vector3(horizontal * speed * Time.deltaTime, vertical * speed * Time.deltaTime);
+
+        if (position.y > -1f)
+            position.y = -1f;
+
+        if (position.y < -4.3f)
+            position.y = -4.3f;
+
+        transform.position = position;
+        
         GetComponent<SpriteRenderer>().flipX = horizontal < 0;
     }
 }
