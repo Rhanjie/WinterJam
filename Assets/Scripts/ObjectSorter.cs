@@ -4,7 +4,7 @@ using System.Linq;
 using UnityEngine;
 
 public class ObjectSorter : MonoBehaviour {
-    private void Update() {
+    private void FixedUpdate() {
         var objects = GameObject.FindGameObjectsWithTag("Sortable");
 
         var i = objects.Length;
