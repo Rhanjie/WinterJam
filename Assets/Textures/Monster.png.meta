@@ -1,10 +1,9 @@
 fileFormatVersion: 2
-guid: 7747652071ed4de459130d698019917c
+guid: 91a958c10194ae64e86a59d1dd79a674
 TextureImporter:
   fileIDToRecycleName:
-    21300000: HeroBlack_Run_0
-    21300002: HeroBlack_Run_1
-    21300004: HeroBlack_Run_2
+    21300000: Monster_0
+    21300002: Monster_1
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -131,13 +130,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HeroBlack_Run_0
+      name: Monster_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 16
-        height: 16
+        width: 50
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,19 +144,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70fdf8154f444bf468741b97be89ab7e
+      spriteID: 4a0866a105a925344ada987742f6b078
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroBlack_Run_1
+      name: Monster_1
       rect:
         serializedVersion: 2
-        x: 16
+        x: 50
         y: 0
-        width: 16
-        height: 16
+        width: 50
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,7 +164,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d913396d7d04c74a83cf42282d6df29
+      spriteID: 03e85a51dee82c640ac364d155c98220
       vertices: []
       indices: 
       edges: []
@@ -173,7 +172,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 01fd13a26085ba846b108c3859bbd572
+    spriteID: d8924249463973e45aa094a5267b3657
     vertices: []
     indices: 
     edges: []

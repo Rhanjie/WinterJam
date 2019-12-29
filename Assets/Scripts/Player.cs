@@ -57,7 +57,7 @@ public class Player : MonoBehaviour {
         foreach (Collider2D enemy in hitEnemies) {
             Debug.Log("Hit " + enemy.name);
             
-            //...
+            enemy.GetComponent<Enemy>().Hit(10);
         }
     }
 
